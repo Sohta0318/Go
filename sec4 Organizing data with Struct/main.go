@@ -22,6 +22,7 @@ func main() {
 			zipCode: 94000,
 		},
 	}
+	slicePointer()
 
 	jim.updateName("Jimmy")
 	jim.print()
