@@ -28,7 +28,10 @@ func main() {
 }
 
 func (p person) updateName(newFirstName string){
+	//* update copy of jim (not original)
 	p.firstName = newFirstName
+	// fmt.Printf("%+v", p)
+
 }
 
 func (p person) print() {
